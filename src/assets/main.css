@@ -1,0 +1,26 @@
+
+/* Font Faces */
+@font-face {
+    font-family: "VestaStd-Bold";
+    src: local("VestaStd-Bold"), url('./fonts/VestaStd-Bold.otf');
+}
+
+@font-face {
+    font-family: "VestaStd-Regular";
+    src: local("VestaStd-Regular"), url('./fonts/VestaStd-Regular.otf');
+}
+/* ------------------------------------------------------ */
+
+*{
+    box-sizing: border-box !important;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-italic{
+    font-style: italic !important;
+}
